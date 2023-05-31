@@ -30,146 +30,220 @@
                 alt="Image montrant un plat gastronomique">
         </div>
         <div class="menu-container">
-            <article>
-                <header>
-                    <div class="title-menu">
-                        <h1>À la française</h1>
-                        <div class="heart-container">
-                            <input type="checkbox" id="check-heart" checked>
-                            <label for="check-heart" class="heart-content">
-                                <i class="fa-regular fa-heart heart1"></i>
-                                <i class="fa-solid fa-heart heart2"></i>
-                            </label>
+            <form>
+                <article>
+                    <header>
+                        <div class="title-menu">
+                            <h1>À la française</h1>
+                            <div class="heart-container">
+                                <input type="checkbox" id="check-heart" checked>
+                                <label for="check-heart" class="heart-content">
+                                    <i class="fa-regular fa-heart heart1"></i>
+                                    <i class="fa-solid fa-heart heart2"></i>
+                                </label>
+                            </div>
                         </div>
-                    </div>
-                </header>
-                <section>
-                    <h2>Entrées</h2>
-                    <ul>
-                        <li tabindex="0">
-                            <div class="card-content">
-                                <h3>Tartare de poulpe acidulé</h3>
-                                <p>Aux zestes d'orange</p>
-                            </div>
-                            <div class="price">
-                                <b>25€</b>
-                            </div>
-                            <div class="check">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-                        </li>
-                        <li tabindex="0">
-                            <div class="card-content">
-                                <h3>Velouté de légumes d'antan</h3>
-                                <p>Carotte, panais, topinambour</p>
-                            </div>
-                            <div class="price">
-                                <b>35€</b>
-                            </div>
-                            <div class="check">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-                        </li>
-                        <li tabindex="0">
-                            <div class="card-content">
-                                <h3>Soupe à l'oignon</h3>
-                                <p>Revisitée</p>
-                            </div>
-                            <div class="price">
-                                <b>20€</b>
-                            </div>
-                            <div class="check">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-                        </li>
-                    </ul>
-                </section>
-                <section>
-                    <h2>Plats</h2>
-                    <ul>
-                        <li tabindex="0">
-                            <div class="card-content">
-                                <h3>Coquilles Saint-Jacques</h3>
-                                <p>Accompagnées d'une purée de panais</p>
-                            </div>
-                            <div class="price">
-                                <b>40€</b>
-                            </div>
-                            <div class="check">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-                        </li>
-                        <li tabindex="0">
-                            <div class="card-content">
-                                <h3>Magret de canard</h3>
-                                <p>Et parmentier de pommes de terre</p>
-                            </div>
-                            <div class="price">
-                                <b>35€</b>
-                            </div>
-                            <div class="check">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-                        </li>
-                        <li tabindex="0">
-                            <div class="card-content">
-                                <h3>Pigeonneau d’Ille-et-Vilaine</h3>
-                                <p>Sur son lit de gnocchis aux légumes</p>
-                            </div>
-                            <div class="price">
-                                <b>44€</b>
-                            </div>
-                            <div class="check">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-                        </li>
-                    </ul>
-                </section>
-                <section>
-                    <h2>Desserts</h2>
-                    <ul>
-                        <li tabindex="0">
-                            <div class="card-content">
-                                <h3>Pétales de violettes glacés</h3>
-                                <p>Et purée de noisettes</p>
-                            </div>
-                            <div class="price">
-                                <b>18€</b>
-                            </div>
-                            <div class="check">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-                        </li>
-                        <li tabindex="0">
-                            <div class="card-content">
-                                <h3>Fondant au chocolat</h3>
-                                <p>Revisité</p>
-                            </div>
-                            <div class="price">
-                                <b>22€</b>
-                            </div>
-                            <div class="check">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-                        </li>
-                        <li tabindex="0">
-                            <div class="card-content">
-                                <h3>Millefeuille croustillant</h3>
-                                <p>Myrtilles et pâte d’amande</p>
-                            </div>
-                            <div class="price">
-                                <b>23€</b>
-                            </div>
-                            <div class="check">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-                        </li>
-                    </ul>
-                </section>
-            </article>
-            <div class="order-button">
-                <button>Commander</button>
-            </div>
+                    </header>
+                    <section>
+                        <h2>Entrées</h2>
+                        <ul>
+                            <li tabindex="0">
+                                <div class="check-content">
+                                    <input type="checkbox" id="switch-one">
+                                    <label for="switch-one"></label>
+                                    <div class="card-content">
+                                        <h3>Tartare de poulpe acidulé</h3>
+                                        <p>Aux zestes d'orange</p>
+                                    </div>
+                                    <div class="check">
+                                        <div class="slide">
+                                            <div class="check-icon">
+                                                <i class="fa-solid fa-check"></i>
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <b>25€</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li tabindex="0">
+                                <div class="check-content">
+                                    <input type="checkbox" id="switch-two">
+                                    <label for="switch-two"></label>
+                                    <div class="card-content">
+                                        <h3>Velouté de légumes d'antan</h3>
+                                        <p>Carotte, panais, topinambour</p>
+                                    </div>
+                                    <div class="check">
+                                        <div class="slide">
+                                            <div class="check-icon">
+                                                <i class="fa-solid fa-check"></i>
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <b>35€</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li tabindex="0">
+                                <div class="check-content">
+                                    <input type="checkbox" id="switch-three">
+                                    <label for="switch-three"></label>
+                                    <div class="card-content">
+                                        <h3>Soupe à l'oignon</h3>
+                                        <p>Revisitée</p>
+                                    </div>
+                                    <div class="check">
+                                        <div class="slide">
+                                            <div class="check-icon">
+                                                <i class="fa-solid fa-check"></i>
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <b>20€</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Plats</h2>
+                        <ul>
+                            <li tabindex="0">
+                                <div class="check-content">
+                                    <input type="checkbox" id="switch-four">
+                                    <label for="switch-four"></label>
+                                    <div class="card-content">
+                                        <h3>Coquilles Saint-Jacques</h3>
+                                        <p>Accompagnées d'une purée de panais</p>
+                                    </div>
+                                    <div class="check">
+                                        <div class="slide">
+                                            <div class="check-icon">
+                                                <i class="fa-solid fa-check"></i>
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <b>40€</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li tabindex="0">
+                                <div class="check-content">
+                                    <input type="checkbox" id="switch-five">
+                                    <label for="switch-five"></label>
+                                    <div class="card-content">
+                                        <h3>Magret de canard</h3>
+                                        <p>Et parmentier de pommes de terre</p>
+                                    </div>
+                                    <div class="check">
+                                        <div class="slide">
+                                            <div class="check-icon">
+                                                <i class="fa-solid fa-check"></i>
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <b>35€</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li tabindex="0">
+                                <div class="check-content">
+                                    <input type="checkbox" id="switch-six">
+                                    <label for="switch-six"></label>
+                                    <div class="card-content">
+                                        <h3>Pigeonneau d’Ille-et-Vilaine</h3>
+                                        <p>Sur son lit de gnocchis aux légumes</p>
+                                    </div>
+                                    <div class="check">
+                                        <div class="slide">
+                                            <div class="check-icon">
+                                                <i class="fa-solid fa-check"></i>
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <b>44€</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Desserts</h2>
+                        <ul>
+                            <li tabindex="0">
+                                <div class="check-content">
+                                    <input type="checkbox" id="switch-seven">
+                                    <label for="switch-seven"></label>
+                                    <div class="card-content">
+                                        <h3>Pétales de violettes glacés</h3>
+                                        <p>Et purée de noisettes</p>
+                                    </div>
+                                    <div class="check">
+                                        <div class="slide">
+                                            <div class="check-icon">
+                                                <i class="fa-solid fa-check"></i>
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <b>18€</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li tabindex="0">
+                                <div class="check-content">
+                                    <input type="checkbox" id="switch-eight">
+                                    <label for="switch-eight"></label>
+                                    <div class="card-content">
+                                        <h3>Fondant au chocolat</h3>
+                                        <p>Revisité</p>
+                                    </div>
+                                    <div class="check">
+                                        <div class="slide">
+                                            <div class="check-icon">
+                                                <i class="fa-solid fa-check"></i>
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <b>22€</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li tabindex="0">
+                                <div class="check-content">
+                                    <input type="checkbox" id="switch-nine">
+                                    <label for="switch-nine"></label>
+                                    <div class="card-content">
+                                        <h3>Millefeuille croustillant</h3>
+                                        <p>Myrtilles et pâte d’amande</p>
+                                    </div>
+                                    <div class="check">
+                                        <div class="slide">
+                                            <div class="check-icon">
+                                                <i class="fa-solid fa-check"></i>
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <b>23€</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </article>
+                <div class="order-button">
+                    <button type="reset">Commander</button>
+                </div>
+            </form>
         </div>
     </main>
     <footer class="menu-footer">
